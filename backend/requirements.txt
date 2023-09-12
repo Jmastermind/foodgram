@@ -1,0 +1,11 @@
+Django==4.2.4
+djangorestframework==3.14.0
+django-filter==23.2
+djoser==2.2.0
+python-decouple==3.8
+mixer==7.2.2
+Pillow==10.0.0
+drf-base64==2.0
+fpdf2==2.7.5
+gunicorn==21.2.0
+psycopg2-binary==2.9.7

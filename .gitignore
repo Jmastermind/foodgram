@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Django
+*.sqlite3
+*.coverage
+
+# MyPy
+.mypy_cache
+
+# Additional
+yatube/posts/static/
+yatube/media/
+creds.txt
+tests/
+requirements_dev.txt
+Makefile
+test.http

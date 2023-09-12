@@ -1,0 +1,4 @@
+username,email,first_name,last_name,is_staff,is_superuser
+adam,adam@fake.com,Адам,Первый,True,True
+food_lover,food_lover@fake.com,Любитель,Еды,False,False
+mistress,mistress@fake.com,Хозяйка,Дома,False,False

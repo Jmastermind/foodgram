@@ -1,0 +1,21 @@
+[tool.black]
+include = '\.pyi?$'
+extend-exclude = '''
+(
+    .venv
+    | migrations
+    | __
+    | /\.
+)
+'''
+line_length = 79
+skip-string-normalization = true
+
+[tool.isort]
+profile = 'black'
+src_paths = ['backend']
+
+[tool.mypy]
+python_version = '3.11'
+ignore_missing_imports = true
+exclude = ['migrations']
